@@ -1,5 +1,58 @@
+/* GENERIC */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}  
+}
+body {
+    font-family: fredoka, sans-serif;
+    font-weight: 400;
+}
+img {
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+}
+.name  {
+    font-size: large;
+    font-weight: 600;
+}
+.role {
+    font-size: small;
+}
+a {
+    text-decoration: none;
+    color: #5AC3C8;
+}
+
+/* SPECIFIC */ 
+
+h1 {
+    text-align: center;
+    margin: 2% 0 4% 0;
+    font-weight: 700;
+}
+section {
+    width: 70%;
+    margin: auto;
+}
+section p {
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: small;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+.card {
+    background-color: #0F0E17;
+    color: #FFFFFC;
+    width: calc(100% / 3 - 1%);
+    float: left;
+    margin: 0 1% 1% 0;
+}
+.card div {
+    margin: 2% 0 2% 0;
+}
