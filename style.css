@@ -15,18 +15,18 @@ img {
     margin-right: 5%;
 }
 .name  {
-    font-size: small;
+    font-size: 1.3vw;
     font-weight: 600;
     text-transform: uppercase;
 }
 .role {
-    font-size: x-small;
+    font-size: 1vw;
     text-transform: capitalize;
 }
 a {
     text-decoration: none;
     color: #5AC3C8;
-    font-size: x-small;
+    font-size: 1vw;
 }
 
 /* SPECIFIC */ 
@@ -36,6 +36,7 @@ h1 {
     margin: 2% 0 4% 0;
     font-weight: 700;
     color: #E43170;
+    font-size: 2.5vw;
 }
 section {
     width: 70%;
@@ -44,7 +45,7 @@ section {
 section p {
     text-align: center;
     margin-bottom: 6%;
-    font-size: small;
+    font-size: 1vw;
 }
 .container {
     width: 70%;
